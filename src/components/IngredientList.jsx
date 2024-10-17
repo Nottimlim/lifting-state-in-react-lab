@@ -9,9 +9,11 @@ const IngredientList = ({ ingredients, addToBurger }) => {
           key={index}
           ingredient={ingredient}
           onClick={() => addToBurger(ingredient)}
-          actionLabel="+"
+          actionLabel="➕"
         />
       ))}
     </ul>
   );
 };
+
+export default IngredientList;

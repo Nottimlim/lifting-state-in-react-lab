@@ -12,7 +12,7 @@ const BurgerStack = ({ ingredients, removeFromBurger }) => {
             key={index}
             ingredient={ingredient}
             onClick={() => removeFromBurger(index)}
-            actionLabel="X"
+            actionLabel="❌"
           />
         ))
       )}
